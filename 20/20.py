@@ -1,7 +1,7 @@
 shopping = int(input('Shopping: '))
 hour = int(input('Hour: '))
 minute = int(input('Minute: '))
-if shopping or hour or minute < 0 :
+if (shopping < 0 or hour < 0 or minute < 0) :
     print("It can't be negative.")
 else:
     price = 0
